@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.container {
+  height: 350;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  /* box-shadow: 8px 8px 20px rgb(128, 128, 128); */
+  position: relative;
+  overflow: hidden;
+}
+
+.btn {
+  height: 60px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 10px 10px 30px rgb(188, 235, 254);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login,
+.signup {
+  font-size: 22px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.slider-login {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right,
+      rgb(110, 255, 207),
+      rgba(91, 217, 255, 0.72));
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  transition: all 0.5s ease-in-out;
+}
+
+.slider-signup {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right,
+      rgb(110, 255, 207),
+      rgba(91, 217, 255, 0.72));
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  transition: all 0.5s ease-in-out;
+}
+
+.form-section {
+  height: 500px;
+  width: 1000px;
+  padding: 20px 0;
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  left: 0px;
+}
